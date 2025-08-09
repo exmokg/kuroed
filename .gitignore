@@ -1,0 +1,35 @@
+# Ignore session files for security
+*.session
+*.session-journal
+
+# Ignore logs
+*.log
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore personal configuration
+config.json
+
+# Ignore user profiles (may contain sensitive data)
+profiles.json
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore backup files
+*.bak
+*.backup
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
