@@ -1,0 +1,27 @@
+# MaxBigDigApp Configuration
+# Copy this file to config.json and customize your settings
+
+{
+  "default_api_credentials": {
+    "api_id": "YOUR_API_ID",
+    "api_hash": "YOUR_API_HASH",
+    "comment": "Get these from https://my.telegram.org/apps"
+  },
+  "app_settings": {
+    "max_concurrent_tasks": 5,
+    "invite_delay_seconds": 2,
+    "message_delay_seconds": 1,
+    "auto_save_sessions": true,
+    "log_level": "INFO",
+    "gui_update_interval_ms": 100
+  },
+  "auto_responder": {
+    "default_response": "Thank you for your message. I'll get back to you soon.",
+    "enabled_by_default": false
+  },
+  "safety_limits": {
+    "max_users_per_invite": 50,
+    "max_messages_per_hour": 100,
+    "parse_limit_default": 1000
+  }
+}
